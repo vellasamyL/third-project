@@ -1,0 +1,48 @@
+  @media (max-width:768px){
+    .container{
+        width:100%;
+    }
+    /* banner section */
+    .banner-head h1 {
+        font-size: 20px;
+    }
+
+    .banner-head h4 {
+        margin-top: 20px;
+    }
+    .Features {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .port-sec {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .Recent3{
+        margin-top: 30px;
+    }
+    .Recent3 h1::after {
+       width:25%;
+    }
+.footer-paras {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-con h1 {
+   text-align: center;
+} .footer-con2 h1 {
+    text-align: center;
+}
+
+.finish-1 {
+    text-align: center;
+}
+
+.finish-2 {
+    margin-top: 30px;
+}
+  }
