@@ -4,12 +4,17 @@
     }
     /* banner section */
     .banner-head h1 {
-        font-size: 20px;
+        font-size: 17px;
+        width:33%;
     }
-
-    .banner-head h4 {
-        margin-top: 20px;
-    }
+    /* box-section */
+      .box1 h5{
+        font-size: 17px;
+      }
+      .box2 .banner-btn{
+        font-size: 13px;
+        padding: 0px;
+      }
     .Features {
         display: flex;
         justify-content: space-between;
@@ -22,11 +27,14 @@
         flex-wrap: wrap;
         text-align: center;
     }
+    .Recent h1::after {
+        width: 15%;
+    }
     .Recent3{
-        margin-top: 30px;
+        margin-top: 40px;
     }
     .Recent3 h1::after {
-       width:25%;
+       width:20%;
     }
 .footer-paras {
     display: flex;
